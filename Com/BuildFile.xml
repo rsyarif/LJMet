@@ -1,0 +1,36 @@
+<use name="FWCore/PluginManager"/>
+<use name="DataFormats/Math"/>
+<use name="DataFormats/Common"/>
+<use name="DataFormats/JetReco"/>
+<use name="DataFormats/MuonReco"/>
+<use name="DataFormats/PatCandidates"/>
+<use name="FWCore/Utilities"/>
+<use name="FWCore/Framework"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/ServiceRegistry"/>
+<use name="PhysicsTools/PatUtils"/>
+<use name="PhysicsTools/UtilAlgos"/>
+<use name="PhysicsTools/Utilities"/>
+<use name="DataFormats/BeamSpot"/>
+<use name="FWCore/FWLite"/>
+<use name="DataFormats/FWLite"/>
+<use name="PhysicsTools/FWLite"/>
+<use name="root"/>
+<use name="clhep"/>
+<use name="RecoBTag/PerformanceDB"/>
+<use name="CondFormats/PhysicsToolsObjects"/>
+<use name="RecoBTag/Records"/>
+<use name="JetMETCorrections/Objects"/>
+<use name="JetMETCorrections/Algorithms"/>
+<use name="CondFormats/JetMETObjects"/>
+<use name="fastjet"/>
+#<use name="TopQuarkAnalysis/TopKinFitter"/>
+#<use name="TopQuarkAnalysis/TopHitFit"/>
+#<use name="TopQuarkAnalysis/PatHitFit"/>
+<use   name="lhapdf"/>
+
+<export>
+  <lib   name="1"/>
+</export>
+<flags   CXXFLAGS="-g -O0"/>
+

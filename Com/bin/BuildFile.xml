@@ -1,0 +1,42 @@
+<use   name="rootcintex"/>
+<use   name="boost"/>
+<use   name="CommonTools/Utils"/>
+<use   name="PhysicsTools/Utilities"/>
+<use   name="PhysicsTools/PatUtils"/>
+<use   name="PhysicsTools/SelectorUtils"/>
+<use   name="FWCore/ServiceRegistry"/>
+<use   name="RecoBTag/PerformanceDB"/>
+<use   name="CondFormats/PhysicsToolsObjects"/>
+<use   name="RecoBTag/Records"/>
+
+
+<use name="root"/>
+<use name="FWCore/FWLite"/>
+<use name="FWCore/PythonParameterSet"/>
+<use   name="FWCore/Framework"/>
+<use name="boost_python"/>
+<use name="DataFormats/FWLite"/>
+<use name="DataFormats/PatCandidates"/>
+<use name="DataFormats/Math"/>
+<use name="PhysicsTools/FWLite"/>
+<use name="JetMETCorrections/Objects"/>
+<use name="JetMETCorrections/Algorithms"/>
+<use name="LJMet/Com"/>
+<use name="PhysicsTools/CondLiteIO"/>
+<use name="TopQuarkAnalysis/TopKinFitter"/>
+
+#<use name="TopQuarkAnalysis/HitFit"/>
+#<use name="TopQuarkAnalysis/TopHitFit"/>
+
+#<use   name="lhapdf"/>
+
+
+
+
+<environment>
+ <bin name="ljmet" file="ljmet.cc">
+   <use   name="rootcore"/>
+   <use   name="lhapdf"/>
+ </bin>
+</environment>
+
